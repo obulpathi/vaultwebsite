@@ -1,0 +1,18 @@
+application: vaultcoin
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /.*
+  static_files: index.html
+  upload: index.html
+
+- url: /paper.html
+  static_files: paper.html
+  upload: paper.html
+
+- url: /survey.html
+  static_files: survey.html
+  upload: survey.html
